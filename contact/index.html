@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Affaan Mustafa</title>
+  <meta name="description" content="Contact me about compute trading or ECC, and find my official profiles.">
+  <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/site.css">
+  <script>
+    (function () {
+      var stored = null;
+      try { stored = localStorage.getItem("theme"); } catch (e) {}
+      var theme = stored || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.classList.toggle("dark", theme === "dark");
+    })();
+  </script>
+</head>
+<body class="min-h-screen">
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <div class="flex flex-col min-h-screen">
+    <header class="w-full border-b border-neutral-200 dark:border-neutral-800">
+      <nav class="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between">
+        <a href="/" class="font-medium text-neutral-900 dark:text-neutral-100 no-underline hover:no-underline">Affaan Mustafa</a>
+        <div class="flex items-center gap-6">
+          <ul class="hidden sm:flex items-center gap-4 text-sm">
+            <li><a href="/projects/" class="transition-colors no-underline hover:underline text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100">Work</a></li><li><a href="/media/" class="transition-colors no-underline hover:underline text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100">Writing & Media</a></li><li><a href="/about/" class="transition-colors no-underline hover:underline text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100">About</a></li><li><a href="/contact/" class="transition-colors no-underline hover:underline text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100" aria-current="page">Contact</a></li>
+          </ul>
+          <button id="theme-toggle" type="button" class="p-2 rounded-md text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors" aria-label="Toggle dark mode">
+            <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+            <svg class="w-5 h-5 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+          </button>
+          <button type="button" id="mobile-menu-btn" class="sm:hidden p-2 -mr-2 text-neutral-600 dark:text-neutral-400" aria-label="Toggle menu" aria-expanded="false">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          </button>
+        </div>
+      </nav>
+      <div id="mobile-menu" class="hidden sm:hidden border-t border-neutral-200 dark:border-neutral-800">
+        <ul class="px-4 py-3 space-y-2"><li><a href="/" class="block py-2 transition-colors no-underline text-neutral-600 dark:text-neutral-400">Home</a></li><li><a href="/projects/" class="block py-2 transition-colors no-underline text-neutral-600 dark:text-neutral-400">Work</a></li><li><a href="/media/" class="block py-2 transition-colors no-underline text-neutral-600 dark:text-neutral-400">Writing & Media</a></li><li><a href="/about/" class="block py-2 transition-colors no-underline text-neutral-600 dark:text-neutral-400">About</a></li><li><a href="/contact/" class="block py-2 transition-colors no-underline text-neutral-900 dark:text-neutral-100 font-medium" aria-current="page">Contact</a></li></ul>
+      </div>
+    </header>
+    <main id="main-content" class="flex-1 w-full max-w-3xl mx-auto px-4 py-6">  <h1 class="text-3xl font-bold mb-4">Get in touch</h1> <p class="text-neutral-600 dark:text-neutral-400 mb-8">For compute, reach the desk. For ECC, reach me directly.</p> <section class="grid sm:grid-cols-2 gap-4" aria-label="Contact"> <div class="border border-neutral-200 dark:border-neutral-800 rounded-xl p-5"><h3 class="font-semibold mb-2">Compute</h3><p class="text-sm text-neutral-500 mb-3">Compute markets and trading.</p><a class="text-sm break-all" href="mailto:compute@jumptrading.com">compute@jumptrading.com</a></div> <div class="border border-neutral-200 dark:border-neutral-800 rounded-xl p-5"><h3 class="font-semibold mb-2">ECC</h3><p class="text-sm text-neutral-500 mb-3">ECC, coding agents and developer tools.</p><a class="text-sm break-all" href="mailto:affaan@ecc.tools">affaan@ecc.tools</a></div> </section> <section class="mt-10"><h2 class="text-xl font-semibold mb-4">Find me online</h2><div class="flex flex-wrap gap-x-5 gap-y-3"><a href="https://github.com/affaan-m">GitHub</a><a href="https://x.com/affaan">X · @affaan</a><a href="https://www.linkedin.com/in/affaanmustafa">LinkedIn</a><a href="https://youtube.com/@affaanmustafa">YouTube · cogsec</a><a href="https://www.instagram.com/affaanmustafa/">Instagram</a><a href="https://orcid.org/0009-0009-9408-5570">ORCID</a><a href="https://profile.google.com/@affaan">Google Profile</a><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7544415">SSRN</a><a href="https://affaanmustafa.substack.com">Substack</a></div></section> <section class="mt-10"><h2 class="text-xl font-semibold mb-4">Official websites</h2><div class="flex flex-wrap gap-5"><a href="https://www.jumptrading.com/">Jump Trading</a><a href="https://ecc.tools/">ECC</a></div></section>  </main>
+    <footer class="w-full border-t border-neutral-200 dark:border-neutral-800 mt-16">
+      <div class="max-w-3xl mx-auto px-4 py-8">
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-neutral-500 dark:text-neutral-400">
+          <p>&copy; 2026 Affaan Mustafa</p>
+          <div class="flex flex-wrap justify-center items-center gap-4">
+            <a href="https://github.com/affaan-m" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors no-underline hover:underline">GitHub</a>
+            <a href="https://x.com/affaan" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors no-underline hover:underline">X</a>
+            <a href="https://www.linkedin.com/in/affaanmustafa" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors no-underline hover:underline">LinkedIn</a>
+            <a href="https://youtube.com/@affaanmustafa" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors no-underline hover:underline">YouTube</a>
+            <a href="https://www.instagram.com/affaanmustafa/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors no-underline hover:underline">Instagram</a>
+            <a href="/contact/" class="hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors no-underline hover:underline">Contact &amp; profiles</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="/js/site.js"></script>
+</body>
+</html>
