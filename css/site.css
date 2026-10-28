@@ -172,8 +172,9 @@ body.page-home .work-clip {
 body.page-home .work-clip video {
   display: block;
   width: 12.5rem;
-  height: 7.05rem;
-  object-fit: cover;
+  height: auto;
+  aspect-ratio: 1600 / 1212;
+  object-fit: contain;
   background: #141414;
   border-radius: 0.4rem;
   border: 1px solid #d9d7d1;
@@ -214,6 +215,6 @@ body.page-home .frame-footer p {
   body.page-home .work-clip,
   body.page-home .work-clip video {
     width: 12.5rem;
-    height: 7.05rem;
+    height: auto;
   }
 }
