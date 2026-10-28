@@ -66,8 +66,8 @@ body.page-home .name-row {
 }
 
 body.page-home .portrait {
-  width: 4.25rem;
-  height: 4.25rem;
+  width: 5.6rem;
+  height: 5.6rem;
   flex: 0 0 auto;
   border-radius: 50%;
   object-fit: cover;
@@ -215,8 +215,8 @@ body.page-home .frame-footer p {
   }
 
   body.page-home .portrait {
-    width: 3.4rem;
-    height: 3.4rem;
+    width: 4.6rem;
+    height: 4.6rem;
   }
 
   body.page-home main h1 {
